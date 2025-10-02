@@ -181,7 +181,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">Адрес офиса</h3>
-                    <p className="text-gray-600">г. Москва, ул. Промышленная, д. 15</p>
+                    <p className="text-gray-600">Южно-Сахалинск, пер. Солнечный, д.9А, оф. 307</p>
                   </div>
                 </div>
 
@@ -191,7 +191,8 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">Телефон</h3>
-                    <p className="text-gray-600">+7 (495) 123-45-67</p>
+                    <p className="text-gray-600">+7 (962) 125-07-00</p>
+                    <p className="text-gray-600">+7 (995) 965-80-00</p>
                   </div>
                 </div>
 
@@ -201,7 +202,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">Email</h3>
-                    <p className="text-gray-600">info@techglobal.ru</p>
+                    <p className="text-gray-600">sales@techglobal.ru</p>
                   </div>
                 </div>
 
@@ -288,9 +289,10 @@ const Index = () => {
             <div>
               <h4 className="font-bold mb-4">Контакты</h4>
               <ul className="space-y-2 text-gray-400">
-                <li>+7 (495) 123-45-67</li>
-                <li>info@techglobal.ru</li>
-                <li>г. Москва, ул. Промышленная, д. 15</li>
+                <li>+7 (962) 125-07-00</li>
+                <li>+7 (995) 965-80-00</li>
+                <li>sales@techglobal.ru</li>
+                <li>Южно-Сахалинск, пер. Солнечный, д.9А, оф. 307</li>
               </ul>
             </div>
           </div>
