@@ -165,6 +165,99 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-20 px-4 bg-gradient-to-b from-gray-50 to-white">
+        <div className="container mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-4">Наши проекты</h2>
+          <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+            Мы гордимся реализованными проектами и доверием наших клиентов
+          </p>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="group overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all">
+              <div className="relative overflow-hidden">
+                <img 
+                  src="/img/93e171a3-8bcd-4ade-ab7c-7b2f41246dab.jpg" 
+                  alt="Строительный проект" 
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div className="absolute bottom-0 p-6 text-white">
+                  <h3 className="text-xl font-bold mb-2">ЖК "Солнечный"</h3>
+                  <p className="text-sm">Поставка 15 единиц спецтехники XCMG</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all">
+              <div className="relative overflow-hidden">
+                <img 
+                  src="/img/8b8b78f8-92b4-4b54-a278-13e69dff8840.jpg" 
+                  alt="Промышленный проект" 
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div className="absolute bottom-0 p-6 text-white">
+                  <h3 className="text-xl font-bold mb-2">Завод "Техмаш"</h3>
+                  <p className="text-sm">Комплектация производственной линии</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all">
+              <div className="relative overflow-hidden">
+                <img 
+                  src="/img/9ca1efa0-04f9-460f-a340-b38f532de3a8.jpg" 
+                  alt="Горнодобывающий проект" 
+                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div className="absolute bottom-0 p-6 text-white">
+                  <h3 className="text-xl font-bold mb-2">Карьер "Восток"</h3>
+                  <p className="text-sm">Поставка горнодобывающей техники</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 px-4 bg-white">
+        <div className="container mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-4">Наши партнёры</h2>
+          <p className="text-center text-gray-600 mb-12">
+            Работаем с ведущими производителями из Китая
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
+            <div className="flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow">
+              <div className="text-center">
+                <h3 className="text-2xl font-bold text-primary">XCMG</h3>
+                <p className="text-sm text-gray-500 mt-1">Спецтехника</p>
+              </div>
+            </div>
+            
+            <div className="flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow">
+              <div className="text-center">
+                <h3 className="text-2xl font-bold text-primary">SANY</h3>
+                <p className="text-sm text-gray-500 mt-1">Краны и экскаваторы</p>
+              </div>
+            </div>
+            
+            <div className="flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow">
+              <div className="text-center">
+                <h3 className="text-2xl font-bold text-primary">Lonking</h3>
+                <p className="text-sm text-gray-500 mt-1">Погрузчики</p>
+              </div>
+            </div>
+            
+            <div className="flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow">
+              <div className="text-center">
+                <h3 className="text-2xl font-bold text-primary">Shantui</h3>
+                <p className="text-sm text-gray-500 mt-1">Бульдозеры</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center space-y-8">
