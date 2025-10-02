@@ -60,9 +60,9 @@ const Index = () => {
             <div className="relative animate-fade-in">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-secondary/20 blur-3xl"></div>
               <img 
-                src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop" 
+                src="/img/05dea7ae-d82a-4147-b9e6-030ff3e9dcdc.jpg" 
                 alt="Спецтехника" 
-                className="relative rounded-2xl shadow-2xl"
+                className="relative rounded-2xl shadow-2xl w-full h-auto object-cover"
               />
             </div>
           </div>
@@ -93,9 +93,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-primary">
               <CardContent className="p-6 space-y-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-primary to-blue-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <Icon name="Truck" className="text-white" size={32} />
-                </div>
+                <img src="/img/9d53b3a4-f785-4b06-b0fb-b4e0abb2f3a1.jpg" alt="Спецтехника" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-xl font-bold">Спецтехника</h3>
                 <p className="text-gray-600">
                   Экскаваторы, бульдозеры, погрузчики, автокраны и другая строительная техника от проверенных производителей
@@ -105,9 +103,7 @@ const Index = () => {
 
             <Card className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-primary">
               <CardContent className="p-6 space-y-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-secondary to-green-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <Icon name="Settings" className="text-white" size={32} />
-                </div>
+                <img src="/img/a2176b5c-18dc-41f9-b99b-2d738e01257d.jpg" alt="Промышленное оборудование" className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-xl font-bold">Промышленное оборудование</h3>
                 <p className="text-gray-600">
                   Станки, производственные линии, компрессоры, генераторы для различных отраслей промышленности
@@ -164,6 +160,46 @@ const Index = () => {
               </div>
               <h3 className="font-bold">Полное сопровождение</h3>
               <p className="text-sm text-gray-600">Поддержка на всех этапах от заказа до запуска</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 px-4 bg-white">
+        <div className="container mx-auto">
+          <div className="max-w-4xl mx-auto text-center space-y-8">
+            <h2 className="text-4xl font-bold">Каталог спецтехники XCMG</h2>
+            <p className="text-lg text-gray-600">
+              Скачайте полный каталог спецтехники XCMG с техническими характеристиками и ценами
+            </p>
+            <div className="grid md:grid-cols-2 gap-6">
+              <Card className="hover:shadow-xl transition-shadow">
+                <CardContent className="p-6 space-y-4">
+                  <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mx-auto">
+                    <Icon name="FileText" className="text-primary" size={32} />
+                  </div>
+                  <h3 className="text-xl font-bold">Каталог экскаваторов XCMG</h3>
+                  <p className="text-gray-600">Полная линейка гусеничных и колесных экскаваторов</p>
+                  <Button className="w-full" variant="outline">
+                    <Icon name="Download" size={20} className="mr-2" />
+                    Скачать каталог (PDF)
+                  </Button>
+                </CardContent>
+              </Card>
+
+              <Card className="hover:shadow-xl transition-shadow">
+                <CardContent className="p-6 space-y-4">
+                  <div className="w-16 h-16 bg-secondary/10 rounded-xl flex items-center justify-center mx-auto">
+                    <Icon name="FileText" className="text-secondary" size={32} />
+                  </div>
+                  <h3 className="text-xl font-bold">Каталог кранов XCMG</h3>
+                  <p className="text-gray-600">Автокраны, башенные краны, мобильные краны</p>
+                  <Button className="w-full" variant="outline">
+                    <Icon name="Download" size={20} className="mr-2" />
+                    Скачать каталог (PDF)
+                  </Button>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </div>
