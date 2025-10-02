@@ -60,8 +60,8 @@ const Index = () => {
             <div className="relative animate-fade-in">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-secondary/20 blur-3xl"></div>
               <img 
-                src="/img/5dad06c2-a20d-4a1e-b890-b37ef25d043f.jpg" 
-                alt="Кран XCMG и бульдозер SANY" 
+                src="/img/434ccb8f-5220-4a43-9518-f5d6f8b132a2.jpg" 
+                alt="Кран XCMG" 
                 className="relative rounded-2xl shadow-2xl w-full h-auto object-cover"
               />
             </div>
